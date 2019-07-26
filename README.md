@@ -10,11 +10,11 @@ The second attempt was heavily inspired by [this site](https://www.viget.com/art
 The challenge here was elegantly skewing and unskewing each element if the page is resized. On mobile, I do away with the skew since it doens't translate well. I wrote JS script that searches through all child elements in the center div and unskews them as approproiate, using window.onresize.
 
 ```
-	function addUnskew() {
-		for (let i = 0; i < unskewedNodes.children.length; i++) {
-			if (!unskewedNodes.children[i].classList.contains('unskew')) {
-			 	unskewedNodes.children[i].classList.add('unskew');
-			}
+function addUnskew() {
+	for (let i = 0; i < unskewedNodes.children.length; i++) {
+		if (!unskewedNodes.children[i].classList.contains('unskew')) {
+			unskewedNodes.children[i].classList.add('unskew');
 		}
 	}
+}
  ```
