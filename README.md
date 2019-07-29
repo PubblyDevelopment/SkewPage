@@ -20,7 +20,7 @@ function addUnskew() {
  ```
 
 ##### Future Attempt?
-I like to create a pure CSS solution. which might be possible with SASS mixins. 
+I like to create a pure CSS solution, which might be possible with SASS mixins. 
 
 #### Demo
 Click [here](https://wallispubbly.github.io/SkewPage/) to see Skew Page in action for the fictional Hudson Street Comics store. 
