@@ -18,3 +18,6 @@ function addUnskew() {
     }
 }
  ```
+
+#### Demo
+Click [here](https://wallispubbly.github.io/SkewPage/) to see Skew Page in action for the fictional Hudson Street Comics store. 
