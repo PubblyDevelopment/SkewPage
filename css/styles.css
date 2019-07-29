@@ -13,7 +13,6 @@ body {
 	width: 100%;
 	max-width: 500px;
 	height: 100%;
-	min-height: 800px;
 	margin: auto auto;
 
 	text-align: center;
@@ -65,5 +64,6 @@ h2 {
 @media screen and (min-width: 768px) { 
 	#stripe {
 		animation: skew 2s forwards;
+		height: 100%;
 	}
 }
